@@ -225,11 +225,3 @@ See `docs/screenshots/` for sample EDA charts (salary distribution, salary by ex
 - Salary-negotiation insight generation (e.g., "you're likely underpaid by X% for this role/location")
 - Time-series job-market trend tracking (postings & salary over time, not just a snapshot)
 
----
-
-## Resume Bullets (ATS-Friendly)
-
-- Engineered an end-to-end salary-prediction pipeline in **Python** using **Pandas** and **NumPy**, cleaning 6,000+ job records (deduplication, outlier removal via IQR, missing-value imputation, currency normalization) into an analysis-ready dataset.
-- Performed exploratory **data analysis and visualization** (Matplotlib, Seaborn, Plotly) on job-market data to surface salary trends by experience, role, location, and industry, and identify in-demand skills.
-- Trained and benchmarked **Linear Regression, Random Forest, and Gradient Boosting** models with **Scikit-learn** using a Pipeline + ColumnTransformer, achieving an **R² of 0.93** and **MAE of ~$12.6K** with the best model on held-out test data.
-- Built and deployed a 7-page interactive **Streamlit** dashboard for job-market analytics, skills analysis, and real-time salary prediction with model-driven, explainable salary ranges and feature-importance insights.
